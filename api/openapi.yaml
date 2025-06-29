@@ -1,0 +1,14 @@
+openapi: "3.1.0"
+info:
+  title: Career Platform API
+  version: "0.1"
+paths:
+  /users/:
+    post:
+      summary: Register user
+  /login/:
+    post:
+      summary: Login user
+  /courses/:
+    get:
+      summary: List courses
